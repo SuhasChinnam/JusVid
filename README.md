@@ -8,7 +8,7 @@ It enables users to upload, view, and manage videos securely.
 ## 🚀 Features
 
 ### User Roles:
-- **Student:** Upload, view, and delete their own videos.
+- **User:** Upload, view, and delete their own videos.
 - **Admin:** View and delete all videos uploaded by any user.
 
 ### Authentication & Authorization:
