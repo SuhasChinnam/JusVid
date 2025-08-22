@@ -49,9 +49,9 @@ public class DataInitializer implements CommandLineRunner {
         if (personRepo.findByEmail("admin@jusvid.com").isEmpty()) {
             Person admin = new Person();
             admin.setName("Admin");
-            admin.setEmail("admin@jusvid.com");
+            admin.setEmail("any mail u want");
             admin.setMobileNumber("9999999999");
-            admin.setPwd("admin123");
+            admin.setPwd("your own password");
             admin.setRoles(adminRole);
             admin.setCreatedBy("SYSTEM");
             personRepo.save(admin);
